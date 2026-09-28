@@ -1,0 +1,15 @@
+# Secrets — never commit the Gemini API key
+.env
+
+# Task brief PDF contains the provided API key
+task_requirment/
+
+# Regenerable raw API/model responses
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/

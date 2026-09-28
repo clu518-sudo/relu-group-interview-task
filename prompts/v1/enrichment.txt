@@ -1,0 +1,36 @@
+You are profiling the likely audience of a real event so that a downstream model
+can reason about who attends it and where they travel from.
+
+Event under analysis:
+- Name: ${name}
+- Date: ${dates}
+- Venue: ${venue}
+- City: ${city}, ${country}
+- Known description: ${description}
+- Evidence URLs: ${urls}
+
+Text extracted from the event's own page (may be empty or partial):
+---
+${page_text}
+---
+
+Produce a structured audience profile. Base it on the evidence above plus what
+is generally known about this event and this event type. Attendance figures and
+origin shares are understood to be modelled estimates, not survey data, so a
+reasoned estimate is wanted where the event type clearly implies one.
+
+Honesty rules:
+- Never invent a specific claim that contradicts the evidence.
+- When you genuinely have no basis for a field, return null for numbers, an
+  empty list for lists, and "unknown" for enums. Do not guess to fill space.
+- "local_share", "national_share" and "international_share" are fractions of
+  attendees and must sum to 1.0. Local means from ${city} and its surroundings,
+  national means from the rest of ${country}, international means from abroad.
+  If you cannot estimate the split, set all three to null rather than inventing
+  a plausible-looking breakdown.
+- "confidence" is your own 0.0-1.0 rating of how well the evidence supports
+  this profile. Use below 0.4 when you are mostly reasoning from the event type
+  alone, and above 0.7 only when the page text directly supports the profile.
+- "description" is free text, two sentences at most.
+- "demographics_notes" and "origins_notes" are one short sentence each, and may
+  be empty strings.

@@ -1,0 +1,1508 @@
+{
+  "meta": {
+    "city": "Munich",
+    "country": "Germany",
+    "month": "2026-10",
+    "generated_at": "2026-09-26T05:43:59Z",
+    "model": "gemini-3.8-flash",
+    "max_events": 100,
+    "event_count": 19,
+    "schema_version": "1.0"
+  },
+  "events": [
+    {
+      "id": "2c857711-30fd-5c8b-a0ae-cfd24184c11a",
+      "name": "Oktoberfest 2026",
+      "category": "Festival",
+      "description": "Oktoberfest is the world's largest folk festival, celebrating Bavarian culture, traditional music, beer, and cuisine. It attracts millions of local and global visitors to the Theresienwiese in Munich.",
+      "date": {
+        "start": "2026-09-19",
+        "end": "2026-10-04"
+      },
+      "venue": {
+        "name": "Theresienwiese",
+        "address": "Theresienwiese, 80336 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 6500000,
+      "audience_profile": {
+        "interests": [
+          "bavarian culture",
+          "beer tasting",
+          "traditional folk music",
+          "fairground rides",
+          "german cuisine"
+        ],
+        "industries": [
+          "tourism",
+          "hospitality",
+          "food & beverage",
+          "brewing",
+          "entertainment"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 18,
+            "max": 75
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "tourists",
+            "young_adults",
+            "families",
+            "couples",
+            "corporate_teams"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Attendees span all generations from families enjoying daytime rides to young adults and corporate groups in the beer tents."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.65,
+        "national": 0.15,
+        "international": 0.2,
+        "top_countries": [
+          "Germany",
+          "United States",
+          "Italy",
+          "United Kingdom",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "The vast majority of visitors come from Munich and Bavaria, supplemented by nationwide attendees and strong international tourism."
+      },
+      "sources": [
+        {
+          "title": "Oktoberfest Official Website",
+          "url": "https://www.oktoberfest.de/en",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:42:09Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.85,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "2fd204a5-720f-562f-accf-35c0fe9389c1",
+      "name": "Apache 207 - Arena Tour 2026",
+      "category": "Concert",
+      "description": "German hip-hop and pop star Apache 207 performs two consecutive arena shows at Olympiahalle München. The event attracts tens of thousands of fans for high-energy live performances of his chart-topping hits.",
+      "date": {
+        "start": "2026-10-01",
+        "end": "2026-10-02"
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 26000,
+      "audience_profile": {
+        "interests": [
+          "german hip-hop",
+          "pop music",
+          "live music",
+          "rap"
+        ],
+        "industries": [],
+        "demographics": {
+          "age_range": {
+            "min": 16,
+            "max": 38
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid"
+          ],
+          "group_types": [
+            "young_adults",
+            "students",
+            "couples"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Audience heavily skews toward teens and young adults with broad mainstream appeal across genders."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.65,
+        "national": 0.3,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria"
+        ],
+        "notes": "Attendees largely originate from Munich and southern Germany, with a minor cross-border audience from Austria."
+      },
+      "sources": [
+        {
+          "title": "Olympiapark München - Apache 207",
+          "url": "https://www.olympiapark.de/de/veranstaltungen/apache-207",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:42:22Z"
+        },
+        {
+          "title": "München Ticket - Apache 207",
+          "url": "https://www.muenchenticket.de",
+          "type": "ticketing_platform",
+          "retrieved_at": "2026-09-26T05:42:22Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.7,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": [
+          "audience_profile.industries"
+        ]
+      }
+    },
+    {
+      "id": "729ea39d-39f0-59a7-bc8e-119b8a945ed3",
+      "name": "Krimifestival München (Krimi-Herbst 2026)",
+      "category": "Festival",
+      "description": "The Internationales Krimifestival München is one of Europe's premier crime literature festivals, staging readings and true-crime talks across diverse venues in Munich. It draws avid mystery, thriller, and true-crime readers to discover leading national and international authors.",
+      "date": {
+        "start": "2026-10-01",
+        "end": "2026-10-24"
+      },
+      "venue": {
+        "name": "Various venues across Munich",
+        "address": "München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 15000,
+      "audience_profile": {
+        "interests": [
+          "crime fiction",
+          "thrillers",
+          "true crime",
+          "literature",
+          "creative writing",
+          "publishing"
+        ],
+        "industries": [
+          "publishing",
+          "media",
+          "entertainment"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 20,
+            "max": 75
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "couples",
+            "solo_professionals",
+            "young_adults"
+          ],
+          "gender_skew": "female-leaning",
+          "notes": "Demographics mirror general crime and thriller readership in Germany, which tilts slightly female and attracts a broad adult age range."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.8,
+        "national": 0.17,
+        "international": 0.03,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Attendance is heavily local to the Munich metropolitan area, with regional and national visitors attending specific headline events."
+      },
+      "sources": [
+        {
+          "title": "Krimifestival München",
+          "url": "https://www.krimifestival-muenchen.de",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:42:31Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.75,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "7d442e27-c79d-585a-9c1b-3999475d6b00",
+      "name": "Bryan Adams - Roll With The Punches Tour 2026",
+      "category": "Concert",
+      "description": "Bryan Adams brings his classic rock repertoire and arena show to Olympiahalle Munich as part of his European tour. The performance attracts a broad audience of rock fans, predominantly older adults and long-time listeners.",
+      "date": {
+        "start": "2026-10-05",
+        "end": null
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 12000,
+      "audience_profile": {
+        "interests": [
+          "classic rock",
+          "pop rock",
+          "live concerts"
+        ],
+        "industries": [],
+        "demographics": {
+          "age_range": {
+            "min": 25,
+            "max": 70
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "couples",
+            "families"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The audience predominantly skews towards mature adults and multi-generational rock fans."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.6,
+        "national": 0.3,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria"
+        ],
+        "notes": "Most attendees originate from Munich and southern Germany, with nearby cross-border visitors from Austria."
+      },
+      "sources": [
+        {
+          "title": "Bryan Adams Tour Dates",
+          "url": "https://bryanadams.com/tours/",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:42:52Z"
+        },
+        {
+          "title": "Eventim - Bryan Adams",
+          "url": "https://www.eventim.de",
+          "type": "ticketing_platform",
+          "retrieved_at": "2026-09-26T05:42:52Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.45,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": [
+          "audience_profile.industries"
+        ]
+      }
+    },
+    {
+      "id": "7b0ef727-021d-5953-abb6-9ef185965ebc",
+      "name": "EXPO REAL 2026",
+      "category": "Trade Fair",
+      "description": "EXPO REAL is Europe's premier B2B trade fair for real estate, investment, and infrastructure, attracting major decision-makers across the property lifecycle. The event focuses on market trends, project financing, asset management, and sustainable transformation.",
+      "date": {
+        "start": "2026-10-05",
+        "end": "2026-10-07"
+      },
+      "venue": {
+        "name": "Messe München",
+        "address": "Am Messesee 2, 81829 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 40000,
+      "audience_profile": {
+        "interests": [
+          "commercial real estate",
+          "real estate investment",
+          "property development",
+          "infrastructure",
+          "asset management",
+          "proptech"
+        ],
+        "industries": [
+          "real estate",
+          "financial services",
+          "construction & engineering",
+          "architecture & urban planning",
+          "investment management"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 24,
+            "max": 68
+          },
+          "professional_level": [
+            "executive",
+            "senior",
+            "investor",
+            "mid"
+          ],
+          "group_types": [
+            "corporate_teams",
+            "solo_professionals"
+          ],
+          "gender_skew": "male-leaning",
+          "notes": "Attendees are predominantly senior executives, institutional investors, and corporate professionals from the commercial property and finance sectors."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.2,
+        "national": 0.45,
+        "international": 0.35,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland",
+          "United Kingdom",
+          "Netherlands",
+          "France"
+        ],
+        "notes": "A substantial portion travels across Germany and the wider DACH region, complemented by key European investment hubs."
+      },
+      "sources": [
+        {
+          "title": "EXPO REAL official site",
+          "url": "https://exporeal.net/en/",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:42:52Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.85,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "7bbf1ead-74c9-54f9-b2f8-fc1a87f13ac0",
+      "name": "21. UNDER|DOX Filmfestival",
+      "category": "Festival",
+      "description": "UNDER|DOX is an annual boutique film festival in Munich dedicated to experimental and documentary filmmaking. It attracts avant-garde cinema enthusiasts, media artists, film students, and industry curators.",
+      "date": {
+        "start": "2026-10-08",
+        "end": "2026-10-14"
+      },
+      "venue": {
+        "name": "Filmmuseum München",
+        "address": "Sankt-Jakobs-Platz 1, 80331 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 2000,
+      "audience_profile": {
+        "interests": [
+          "experimental cinema",
+          "documentary film",
+          "avant-garde art",
+          "film studies",
+          "media art",
+          "archival research"
+        ],
+        "industries": [
+          "film & video",
+          "arts & culture",
+          "higher education"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 20,
+            "max": 70
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid",
+            "senior"
+          ],
+          "group_types": [
+            "solo_professionals",
+            "students",
+            "couples",
+            "young_adults"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Audience consists primarily of cinephiles, local arts and film students, academics, and independent filmmakers."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.75,
+        "national": 0.18,
+        "international": 0.07,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland",
+          "Italy"
+        ],
+        "notes": "Mainly draws from Munich and the Bavarian art scene, with guest filmmakers and curators visiting from across Europe and focus countries."
+      },
+      "sources": [
+        {
+          "title": "UNDERDOX Filmfestival",
+          "url": "https://underdox-festival.de",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:01Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.75,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "b644b965-7c2e-5d34-92e3-bdd5a8124d9c",
+      "name": "Marathon München by Brooks 2026",
+      "category": "Sports",
+      "description": "Marathon München is Munich's premier road running event, bringing together thousands of runners across multiple distances including the marathon, half marathon, 10K, and relay. The race tours iconic city landmarks and concludes in the historic Olympic Park.",
+      "date": {
+        "start": "2026-10-11",
+        "end": null
+      },
+      "venue": {
+        "name": "Olympiapark München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 25000,
+      "audience_profile": {
+        "interests": [
+          "running",
+          "marathon",
+          "track and field",
+          "fitness",
+          "healthy lifestyle"
+        ],
+        "industries": [
+          "sports & fitness",
+          "health & wellness",
+          "tourism"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 18,
+            "max": 65
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "solo_professionals",
+            "corporate_teams",
+            "couples",
+            "young_adults",
+            "families"
+          ],
+          "gender_skew": "male-leaning",
+          "notes": "Participants span amateur and serious road runners, with corporate relay teams and family-oriented side events broadening the demographic."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.55,
+        "national": 0.3,
+        "international": 0.15,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Italy",
+          "Switzerland",
+          "United Kingdom"
+        ],
+        "notes": "A majority of runners hail from Munich and Bavaria, supplemented by strong national attendance and runners from neighboring Alpine and European countries."
+      },
+      "sources": [
+        {
+          "title": "Marathon München Official Website",
+          "url": "https://marathonmuenchen.org",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:01Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.8,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "eedc3fe2-39a1-573e-967c-14a02fadca2c",
+      "name": "Felix Lobrecht - SELL OUT",
+      "category": "Cultural",
+      "description": "German stand-up comedian and podcast star Felix Lobrecht presents his arena tour 'SELL OUT' over three consecutive evenings. The shows draw tens of thousands of fans of contemporary German-language stand-up comedy.",
+      "date": {
+        "start": "2026-10-15",
+        "end": "2026-10-17"
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 33000,
+      "audience_profile": {
+        "interests": [
+          "stand-up comedy",
+          "podcasts",
+          "german pop culture",
+          "satire",
+          "live entertainment"
+        ],
+        "industries": [],
+        "demographics": {
+          "age_range": {
+            "min": 18,
+            "max": 40
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid",
+            "mixed"
+          ],
+          "group_types": [
+            "young_adults",
+            "couples",
+            "students"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Audience strongly skews toward young adults and millennials familiar with his stand-up and 'Gemischtes Hack' podcast."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.65,
+        "national": 0.3,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria"
+        ],
+        "notes": "Most attendees come from Munich and Upper Bavaria, with some regional and Austrian fans traveling for the arena dates."
+      },
+      "sources": [
+        {
+          "title": "Olympiapark München - Felix Lobrecht",
+          "url": "https://www.olympiapark.de/de/veranstaltungen/felix-lobrecht",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:11Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.7,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": [
+          "audience_profile.industries"
+        ]
+      }
+    },
+    {
+      "id": "976440ec-e2b3-5e31-8a2f-014b65065f52",
+      "name": "QFFM - Queer Film Festival München 2026",
+      "category": "Festival",
+      "description": "An annual independent film festival in Munich dedicated to diverse, non-heteronormative queer cinema and discussions. It gathers cinema enthusiasts, filmmakers, and the LGBTQ+ community across a multi-day program.",
+      "date": {
+        "start": "2026-10-16",
+        "end": "2026-10-23"
+      },
+      "venue": {
+        "name": "Münchner Kammerspiele",
+        "address": "Maximilianstraße 26-28, 80539 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 3500,
+      "audience_profile": {
+        "interests": [
+          "queer cinema",
+          "lgbtq+ culture",
+          "independent film",
+          "film production",
+          "performing arts"
+        ],
+        "industries": [
+          "film & cinema",
+          "arts & culture",
+          "media & entertainment"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 18,
+            "max": 65
+          },
+          "professional_level": [
+            "mixed",
+            "student"
+          ],
+          "group_types": [
+            "young_adults",
+            "couples",
+            "students",
+            "solo_professionals"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Audience skews heavily toward local LGBTQ+ community members, film lovers, and students."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.8,
+        "national": 0.15,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Attendees primarily originate from Munich and Bavaria, alongside visiting filmmakers and queer cinema enthusiasts from across the DACH region."
+      },
+      "sources": [
+        {
+          "title": "QFFM Official Site",
+          "url": "https://qffm.de",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:21Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.65,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "84ee7174-6960-5498-9286-e6487087a8a6",
+      "name": "Residenzwoche München 2026",
+      "category": "Cultural",
+      "description": "An annual cultural festival organized by the Bavarian Palace Administration featuring early-music classical concerts, guided heritage tours, and historical workshops. The event spans historical sites including the Munich Residenz and Schleißheim Palace.",
+      "date": {
+        "start": "2026-10-16",
+        "end": "2026-10-25"
+      },
+      "venue": {
+        "name": "Residenz München",
+        "address": "Residenzstraße 1, 80333 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 5000,
+      "audience_profile": {
+        "interests": [
+          "classical music",
+          "early music",
+          "art history",
+          "bavarian heritage",
+          "museums & palaces",
+          "history"
+        ],
+        "industries": [
+          "arts and culture",
+          "tourism & heritage"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 20,
+            "max": 80
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "couples",
+            "tourists",
+            "families"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The festival primarily attracts older adults, cultural enthusiasts, and local families interested in Bavarian history and early classical music."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.7,
+        "national": 0.2,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Most attendees reside in Munich and surrounding Upper Bavaria, supplemented by domestic cultural travelers and city tourists."
+      },
+      "sources": [
+        {
+          "title": "Residenzwoche München",
+          "url": "https://www.residenzwoche.de",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:21Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.75,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "1a258b25-09e2-573f-9764-6080b2247266",
+      "name": "Loop One Festival 2026",
+      "category": "Sports",
+      "description": "Loop One Festival is an urban summer biathlon competition and festival held at Olympiapark Munich in partnership with the IBU. It features elite roller ski races, athlete meet-and-greets, interactive sports zones, and festival entertainment.",
+      "date": {
+        "start": "2026-10-17",
+        "end": "2026-10-18"
+      },
+      "venue": {
+        "name": "Olympiapark München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 20000,
+      "audience_profile": {
+        "interests": [
+          "biathlon",
+          "winter sports",
+          "roller skiing",
+          "outdoor activities",
+          "athletics",
+          "street food"
+        ],
+        "industries": [
+          "sports & recreation",
+          "entertainment",
+          "tourism"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 6,
+            "max": 75
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "families",
+            "couples",
+            "young_adults",
+            "tourists"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Biathlon commands a broad, gender-balanced mainstream following in Germany across diverse age brackets."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.6,
+        "national": 0.3,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland",
+          "Italy",
+          "Norway"
+        ],
+        "notes": "Attendees largely comprise Munich residents and regional Bavarian day-trippers, complemented by domestic and neighboring European biathlon enthusiasts."
+      },
+      "sources": [
+        {
+          "title": "Loop One Festival",
+          "url": "https://www.looponefestival.com/en/",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:28Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.75,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "8f0a2fac-b392-5ef8-8dbb-a5a96bf6d4ea",
+      "name": "Auer Dult - Kirchweihdult 2026",
+      "category": "Festival",
+      "description": "The Kirchweihdult is the autumn edition of Munich's historic Auer Dult, offering Europe's largest crockery market, antique shopping, and nostalgic family fairground rides. Held at Mariahilfplatz, it serves as a cherished traditional seasonal gathering for locals and visitors alike.",
+      "date": {
+        "start": "2026-10-17",
+        "end": "2026-10-25"
+      },
+      "venue": {
+        "name": "Mariahilfplatz",
+        "address": "Mariahilfplatz, 81541 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 95000,
+      "audience_profile": {
+        "interests": [
+          "antiques",
+          "ceramics & porcelain",
+          "bavarian culture",
+          "traditional crafts",
+          "fairground rides",
+          "flea markets"
+        ],
+        "industries": [
+          "retail",
+          "arts and crafts",
+          "hospitality",
+          "tourism"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 0,
+            "max": 85
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "families",
+            "couples",
+            "tourists",
+            "young_adults"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The fair attracts a broad multi-generational audience ranging from families with young children to elderly antique collectors."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.8,
+        "national": 0.15,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland",
+          "Italy"
+        ],
+        "notes": "Predominantly attracts residents from Munich and surrounding Upper Bavaria, supplemented by regional German tourists."
+      },
+      "sources": [
+        {
+          "title": "Munich City Portal - Auer Dult",
+          "url": "https://www.muenchen.de/veranstaltungen/freizeit/volksfeste/auer-dult",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:28Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.6,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "2e09757d-994e-51b9-af25-078cee33e037",
+      "name": "Die Lange Nacht der Münchner Museen 2026",
+      "category": "Cultural",
+      "description": "Die Lange Nacht der Münchner Museen opens over 100 museums, galleries, and cultural institutions across Munich for a late-night cultural celebration. It attracts tens of thousands of art, history, and science enthusiasts from the local community and beyond.",
+      "date": {
+        "start": "2026-10-17",
+        "end": null
+      },
+      "venue": {
+        "name": "Multiple museums and cultural institutions across Munich",
+        "address": "München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 30000,
+      "audience_profile": {
+        "interests": [
+          "art",
+          "history",
+          "science",
+          "culture",
+          "museums",
+          "architecture"
+        ],
+        "industries": [
+          "arts and culture",
+          "higher education",
+          "tourism"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 6,
+            "max": 80
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "couples",
+            "young_adults",
+            "families",
+            "students",
+            "tourists"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The event reaches a wide demographic ranging from families during early hours to young adults, couples, and seniors throughout the night."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.8,
+        "national": 0.15,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "The audience is predominantly drawn from Munich and the greater metropolitan region, alongside domestic and neighboring country weekend tourists."
+      },
+      "sources": [
+        {
+          "title": "Die Lange Nacht der Münchner Museen",
+          "url": "https://www.muenchner.de/museumsnacht/",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:29Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.85,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "1ecda2af-9c8d-5dad-8581-9699ef3ff8c5",
+      "name": "Korn - Euro Tour 2026",
+      "category": "Concert",
+      "description": "Nu-metal pioneers Korn bring their 2026 European tour to Olympiahalle München alongside special guests Architects and Youth Code. The arena show attracts devoted metal and rock fans across multiple generations.",
+      "date": {
+        "start": "2026-10-19",
+        "end": null
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 12500,
+      "audience_profile": {
+        "interests": [
+          "nu metal",
+          "heavy metal",
+          "alternative metal",
+          "live music"
+        ],
+        "industries": [],
+        "demographics": {
+          "age_range": {
+            "min": 18,
+            "max": 55
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "young_adults",
+            "couples"
+          ],
+          "gender_skew": "male-leaning",
+          "notes": "The crowd leans male and blends long-time 90s nu-metal fans with younger metalcore audiences drawn by supporting acts."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.6,
+        "national": 0.3,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Most attendees come from Munich and southern Germany, supplemented by cross-border travellers from nearby Austria."
+      },
+      "sources": [
+        {
+          "title": "Korn Official Tour Dates",
+          "url": "https://kornofficial.com",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:39Z"
+        },
+        {
+          "title": "Olympiapark München - Korn",
+          "url": "https://www.olympiapark.de/de/veranstaltungen/korn",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:39Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.7,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": [
+          "audience_profile.industries"
+        ]
+      }
+    },
+    {
+      "id": "d3a0c722-8c60-5593-83f7-64d5d76abab4",
+      "name": "The World of Hans Zimmer - A New Dimension",
+      "category": "Concert",
+      "description": "A major arena symphonic production performing Hans Zimmer's iconic film scores with a live orchestra, choir, and soloists. It attracts a wide audience of movie lovers, soundtrack fans, and general concertgoers.",
+      "date": {
+        "start": "2026-10-20",
+        "end": null
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 11000,
+      "audience_profile": {
+        "interests": [
+          "film music",
+          "classical music",
+          "soundtracks",
+          "cinema",
+          "live symphony"
+        ],
+        "industries": [
+          "entertainment",
+          "music",
+          "film production"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 16,
+            "max": 65
+          },
+          "professional_level": [
+            "mixed"
+          ],
+          "group_types": [
+            "couples",
+            "families",
+            "young_adults"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The event appeals broadly across multiple age groups and backgrounds drawn by popular film franchises."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.7,
+        "national": 0.25,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria"
+        ],
+        "notes": "Most attendees originate from Munich and surrounding southern Germany, with some regional cross-border visitors from Austria."
+      },
+      "sources": [
+        {
+          "title": "Olympiapark München - The World of Hans Zimmer",
+          "url": "https://www.olympiapark.de/de/veranstaltungen/the-world-of-hans-zimmer",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:39Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.5,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "555775e2-b562-5a79-9ad9-ba9c20a56ee2",
+      "name": "The Munich Show - Mineralientage München 2026",
+      "category": "Trade Fair",
+      "description": "The Munich Show is a world-leading trade and public exhibition dedicated to minerals, fossils, gemstones, and jewelry. It brings together international trade buyers, scientific collectors, and the general public, including families.",
+      "date": {
+        "start": "2026-10-22",
+        "end": "2026-10-25"
+      },
+      "venue": {
+        "name": "Messe München",
+        "address": "Am Messesee 2, 81829 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 48000,
+      "audience_profile": {
+        "interests": [
+          "minerals",
+          "fossils",
+          "gemstones",
+          "jewelry design",
+          "numismatics",
+          "geology",
+          "paleontology"
+        ],
+        "industries": [
+          "luxury goods & jewelry",
+          "mining & metals",
+          "retail",
+          "arts & crafts",
+          "museums & cultural heritage"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 6,
+            "max": 80
+          },
+          "professional_level": [
+            "junior",
+            "mid",
+            "senior",
+            "investor",
+            "mixed"
+          ],
+          "group_types": [
+            "families",
+            "solo_professionals",
+            "couples",
+            "tourists"
+          ],
+          "gender_skew": "balanced",
+          "notes": "The event caters to B2B jewelry and gem traders as well as family audiences and private collectors across all age groups."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.4,
+        "national": 0.35,
+        "international": 0.25,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland",
+          "Italy",
+          "France"
+        ],
+        "notes": "Heavy regional attendance from Bavaria is complemented by a substantial nationwide and European collector and dealer contingent."
+      },
+      "sources": [
+        {
+          "title": "The Munich Show Official Site",
+          "url": "https://munichshow.com/de",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:39Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.85,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "c9ef3615-01dd-5ca9-bf61-bc82089a1fee",
+      "name": "herCAREER Expo 2026",
+      "category": "Trade Fair",
+      "description": "herCAREER Expo is the leading career, networking, and professional development exhibition in the German-speaking region focused on female empowerment and career advancement. It connects students, graduates, and professionals across all career levels with progressive employers and industry leaders.",
+      "date": {
+        "start": "2026-10-22",
+        "end": "2026-10-23"
+      },
+      "venue": {
+        "name": "MOC Event Center Messe München",
+        "address": "Lilienthalallee 40, 80939 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 6500,
+      "audience_profile": {
+        "interests": [
+          "career development",
+          "female empowerment",
+          "leadership",
+          "networking",
+          "diversity & inclusion",
+          "entrepreneurship",
+          "continuing education"
+        ],
+        "industries": [
+          "human resources & staffing",
+          "technology",
+          "financial services",
+          "management consulting",
+          "corporate & professional services"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 20,
+            "max": 62
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid",
+            "senior",
+            "executive"
+          ],
+          "group_types": [
+            "solo_professionals",
+            "students",
+            "corporate_teams"
+          ],
+          "gender_skew": "female-leaning",
+          "notes": "The event is specifically tailored towards female professionals and non-binary individuals across diverse career stages, though open to all."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.45,
+        "national": 0.45,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Draws visitors from across Germany and neighboring DACH countries, with a substantial local and regional Bavarian base."
+      },
+      "sources": [
+        {
+          "title": "herCAREER Official Site",
+          "url": "https://her-career.company",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:39Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.85,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "b4233e1f-276c-5393-bc5b-8a3a3de8101d",
+      "name": "Don Toliver: NITROUS - OCTANE WORLD TOUR LEG 2",
+      "category": "Concert",
+      "description": "American rapper and singer Don Toliver performs live at Olympiahalle Munich as part of his global arena tour. The concert attracts a vibrant crowd of young hip-hop and trap music fans.",
+      "date": {
+        "start": "2026-10-29",
+        "end": null
+      },
+      "venue": {
+        "name": "Olympiahalle München",
+        "address": "Spiridon-Louis-Ring 21, 80809 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 12000,
+      "audience_profile": {
+        "interests": [
+          "hip-hop",
+          "rap",
+          "trap music",
+          "r&b",
+          "live concerts"
+        ],
+        "industries": [
+          "music",
+          "entertainment"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 16,
+            "max": 35
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid"
+          ],
+          "group_types": [
+            "young_adults",
+            "students",
+            "couples"
+          ],
+          "gender_skew": "balanced",
+          "notes": "Audience strongly leans towards Gen Z and younger millennials passionate about modern hip-hop and trap culture."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.65,
+        "national": 0.25,
+        "international": 0.1,
+        "top_countries": [
+          "Germany",
+          "Austria",
+          "Switzerland"
+        ],
+        "notes": "Draws mainly from the Munich metropolitan area and southern Germany, with nearby cross-border travel from Austria."
+      },
+      "sources": [
+        {
+          "title": "Ticketmaster - Don Toliver Munich",
+          "url": "https://www.ticketmaster.de",
+          "type": "ticketing_platform",
+          "retrieved_at": "2026-09-26T05:43:46Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.55,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    },
+    {
+      "id": "049ad437-a08e-5a77-8f66-2ab54394c616",
+      "name": "ITCS Munich 2026",
+      "category": "Trade Fair",
+      "description": "ITCS Munich is an IT career fair, tech conference, and developer festival connecting tech talent with employers. Attendees participate in keynotes, masterclasses, networking, and festival activities like gaming and afterparties.",
+      "date": {
+        "start": "2026-10-30",
+        "end": null
+      },
+      "venue": {
+        "name": "MOC Event Center Messe München",
+        "address": "Lilienthalallee 40, 80939 München",
+        "city": "Munich",
+        "country": "Germany"
+      },
+      "estimated_participants": 3500,
+      "audience_profile": {
+        "interests": [
+          "software development",
+          "information technology",
+          "career development",
+          "artificial intelligence",
+          "cybersecurity",
+          "gaming"
+        ],
+        "industries": [
+          "information technology",
+          "software engineering",
+          "recruitment",
+          "telecommunications"
+        ],
+        "demographics": {
+          "age_range": {
+            "min": 19,
+            "max": 45
+          },
+          "professional_level": [
+            "student",
+            "junior",
+            "mid",
+            "senior"
+          ],
+          "group_types": [
+            "students",
+            "solo_professionals",
+            "corporate_teams",
+            "young_adults"
+          ],
+          "gender_skew": "male-leaning",
+          "notes": "Audience strongly skews toward university students, recent graduates, and software engineers, with dedicated initiatives for women in tech."
+        }
+      },
+      "geographic_origins": {
+        "local": 0.75,
+        "national": 0.2,
+        "international": 0.05,
+        "top_countries": [
+          "Germany",
+          "Austria"
+        ],
+        "notes": "Most attendees travel from Munich and the greater Bavarian university and tech corridor, with national recruitment draw across Germany."
+      },
+      "sources": [
+        {
+          "title": "ITCS Munich Official Site",
+          "url": "https://it-cs.io",
+          "type": "official_site",
+          "retrieved_at": "2026-09-26T05:43:59Z"
+        }
+      ],
+      "data_quality": {
+        "confidence": 0.8,
+        "fields_estimated": [
+          "estimated_participants",
+          "audience_profile",
+          "geographic_origins"
+        ],
+        "fields_unknown": []
+      }
+    }
+  ]
+}
