@@ -1,7 +1,7 @@
 """Loads versioned prompt templates from ``prompts/{version}/{name}.txt``.
 
 Changing prompt behaviour means bumping ``PROMPT_VERSION``, never editing code
-(DECISIONS.md #7). Placeholders use ``${name}`` rather than ``{name}`` so that
+(DECISIONS.md #8). Placeholders use ``${name}`` rather than ``{name}`` so that
 the JSON examples inside the prompts do not need their braces escaped; a
 literal dollar sign is written ``$$``.
 """

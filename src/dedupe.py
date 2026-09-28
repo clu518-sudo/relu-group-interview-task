@@ -1,7 +1,7 @@
 """Stage 2: normalise raw candidates and merge duplicates.
 
 Pure code, no API cost. Duplicates are merged rather than discarded, because a
-second hit on the same event is extra evidence, not noise (DECISIONS.md #8).
+second hit on the same event is extra evidence, not noise (DECISIONS.md #7).
 """
 
 from __future__ import annotations

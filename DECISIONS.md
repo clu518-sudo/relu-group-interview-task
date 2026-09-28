@@ -193,7 +193,8 @@ Config (city, month, max_events, use_cache)
         │
         ▼
 [2] NORMALIZE & DEDUPE: clean fields; merge duplicate hits into one
-    candidate, combining their sources
+    candidate, combining their sources; stamp id (deterministic uuid5)
+    → must happen here: the stage-4 cache key is keyed on the id
         │
         ▼
 [3] TIER-1 VALIDATION (gate): name, date.start, venue.name, sources non-empty
@@ -207,8 +208,8 @@ Config (city, month, max_events, use_cache)
     (model instructed: return unknown/null, don't hallucinate)
         │
         ▼
-[5] ASSEMBLE & FINAL VALIDATION: code stamps id (deterministic uuid5), retrieved_at,
-    data_quality; pydantic validates full Event
+[5] ASSEMBLE & FINAL VALIDATION: code stamps retrieved_at and data_quality;
+    pydantic validates full Event
     Fail here → also routes to rejected_events.json
         │
         ▼

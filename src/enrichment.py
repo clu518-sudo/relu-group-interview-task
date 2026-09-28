@@ -4,7 +4,7 @@ Code does the free part (fetch the source page, strip it to text) and Gemini
 does the part that needs judgement. Structured output is used here because the
 call is ungrounded, so the schema can be enforced by the SDK.
 
-No retries by design (DECISIONS.md #8): a failed enrichment drops one event to
+No retries by design (DECISIONS.md #7): a failed enrichment drops one event to
 the rejection log and the run continues, rather than stalling on a bad URL.
 """
 
